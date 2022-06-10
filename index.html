@@ -1,0 +1,259 @@
+<html lang="en">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <meta charset="UTF-8" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/main.min.css" />
+    <link rel="stylesheet" type="text/css" href="sim-slider-styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container header">
+        <a href="./index.html" class="">
+          <img src="./images/dach-logo.png" alt="logo" class="logo" />
+        </a>
+        <nav class="nav">
+          <ul class="site-nav">
+            <li class="site-nav-item">
+              <a class="link current" href="">Strona główna</a>
+            </li>
+            <li class="site-nav-item">
+              <a class="link" href="">O nas</a>
+            </li>
+            <li class="site-nav-item">
+              <div class="dropdown">
+                <button
+                  class="btn btn-secondary dropdown-toggle btn-2"
+                  type="button"
+                  id="dropdownMenuButton1"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Oferta
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Another action</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="site-nav-item">
+              <a class="link" href="">Galeria</a>
+            </li>
+            <li class="site-nav-item">
+              <a class="link" href="">Kontakt</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="carousel">
+        <div
+          id="carouselExampleIndicators"
+          class="carousel slide"
+          data-bs-ride="true"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="./images/dach-1.jpg"
+                class="d-block w-100"
+                alt="dach"
+                height="840"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./images/dach-2.jpg"
+                class="d-block w-100"
+                alt="dach"
+                height="840"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./images/dach-3.jpg"
+                class="d-block w-100"
+                alt="dach"
+                height="840"
+              />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <div class="container cards">
+        <div class="card mb-3">
+          <div class="row g-0">
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit
+                </h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Omnis mollitia ullam, earum harum possimus sequi molestias
+                  exercitationem, odio, aliquam voluptas veritatis placeat?
+                  Repudiandae omnis officia error qui unde. Ut officia totam,
+                  exercitationem in ullam voluptate deserunt.
+                </p>
+                <button type="button" class="btn btn-outline-dark">
+                  ZOBACZ WIĘCEJ
+                </button>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <img
+                src="./images/dach-2.jpg"
+                class="img-fluid rounded-start img-card"
+                alt="dach"
+                height="500"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <ul class="cards-list">
+          <li>
+            <img src="./images/box-1.jpg" />
+            <div class="overlay">
+              <h3>Montaż okien połaciowych</h3>
+              <p class="text">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos
+                earum placeat libero fuga harum quas!
+              </p>
+              <button type="button" class="btn btn-outline-dark">
+                ZOBACZ WIĘCEJ
+              </button>
+            </div>
+          </li>
+          <li>
+            <img src="./images/box-2.jpg" />
+            <div class="overlay">
+              <h3>Montaż okien połaciowych</h3>
+              <p class="text">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos
+                earum placeat libero fuga harum quas!
+              </p>
+              <button type="button" class="btn btn-outline-dark">
+                ZOBACZ WIĘCEJ
+              </button>
+            </div>
+          </li>
+          <li>
+            <img src="./images/box-4.jpg" />
+            <div class="overlay">
+              <h3>Montaż okien połaciowych</h3>
+              <p class="text">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos
+                earum placeat libero fuga harum quas!
+              </p>
+              <button type="button" class="btn btn-outline-dark">
+                ZOBACZ WIĘCEJ
+              </button>
+            </div>
+          </li>
+          <li>
+            <img src="./images/box-3.jpg" />
+            <div class="overlay">
+              <h3>Montaż okien połaciowych</h3>
+              <p class="text">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos
+                earum placeat libero fuga harum quas!
+              </p>
+              <button type="button" class="btn btn-outline-dark">
+                ZOBACZ WIĘCEJ
+              </button>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="container">
+        <div class="section">
+          <h5 class="card-title">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit
+          </h5>
+          <p class="card-text">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis
+            mollitia ullam, earum harum possimus sequi molestias exercitationem,
+            odio, aliquam voluptas veritatis placeat? Repudiandae omnis officia
+            error qui unde. Ut officia totam, exercitationem in ullam voluptate
+            deserunt.
+          </p>
+          <button type="button" class="btn btn-outline-dark">
+            ZOBACZ WIĘCEJ
+          </button>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="container"></div>
+      <p class="footer-text">PROJEKT I REALIZACJA:INTERNET MEDIA POLSKA</p>
+    </footer>
+    <script src="./slider/slider.js"></script>
+  </body>
+</html>
